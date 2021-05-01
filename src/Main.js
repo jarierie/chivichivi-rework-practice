@@ -126,7 +126,6 @@ const Main = () => {
                 onMouseOut={leaveHover}
                 onMouseOver={() => hoverChangeState(item.image)}
                 align={item.align}
-                color={item.color}
               >
                 {item.name}
               </TextContainer>
